@@ -4,9 +4,8 @@ class Model
 {
     public $content;
 
-    public function __contruct ()
-    {
-        $this->content = "Hello WOrld!";
+    public function __construct(){
+        $this->content = "Hello World!";
     }
     public function getContent(){
         return $this->content; 

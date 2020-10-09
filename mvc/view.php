@@ -6,7 +6,7 @@ class View
     private $model;
     private $content;
     
-    public function __construct(MOdel $model)    {
+    public function __construct(Model $model)    {
         $this->model = $model;
     }
     public function viewContent(){

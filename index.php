@@ -27,7 +27,7 @@ include_once ("mvc/controller.php");
 
 $model = new Model();
 $view = new View($model);
-$controller = new Controller($view, $model);
+$controller = new Controller($model, $view);
 
 $view->viewContent();
 $controller->updateModel("Nieuwe content: [student naam], [student nr]!!");
